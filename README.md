@@ -1,7 +1,7 @@
 # miniJoi
 
 ```
-const miniJoi = require('miniJoi');
+const miniJoi = require('minijoi');
 
 miniJoi.requireAndNotEmptyForStr(value , options)
 options : {
