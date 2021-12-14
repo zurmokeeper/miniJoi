@@ -1,7 +1,7 @@
 
 /**
  * @author zurmokeeper
- * github home page
+ * github home page https://github.com/zurmokeeper/miniJoi
  */
 
 

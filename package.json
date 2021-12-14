@@ -2,7 +2,11 @@
 	"name": "miniJoi",
 	"version": "1.0.0",
 	"description": "Node.js parameter verification module, more simple to use, JS parameter verification module, Joi module simple encapsulation library",
-	"keywords": ["Joi","parameter verification" ,"simple","miniJoi"],
+	"keywords": [
+		"Joi",
+		"parameter verification" ,
+		"simple","miniJoi"
+	],
 	"main": "index.js",
 	"types": "index.d.ts",
 	"dependencies": {
@@ -11,6 +15,10 @@
 	},
 	"devDependencies": {
 		"jest": "^26.6.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:zurmokeeper/miniJoi.git"
 	},
 	"scripts": {
 		"test": "jest",
