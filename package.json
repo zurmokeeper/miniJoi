@@ -1,0 +1,74 @@
+{
+	"name": "miniJoi",
+	"version": "1.0.0",
+	"description": "Node.js parameter verification module, more simple to use, JS parameter verification module, Joi module simple encapsulation library",
+	"keywords": ["Joi","parameter verification" ,"simple","miniJoi"],
+	"main": "index.js",
+	"types": "index.d.ts",
+	"dependencies": {
+		"joi": "17.4.2",
+		"safe-regex": "^2.1.1"
+	},
+	"devDependencies": {
+		"jest": "^26.6.3"
+	},
+	"scripts": {
+		"test": "jest",
+		"common": "jest tests/common/common.test.js",
+		"requireAndNotEmptyForStr": "jest tests/string/requireAndNotEmptyForStr.test.js",
+		"requireAndIsEmptyForStr": "jest tests/string/requireAndIsEmptyForStr.test.js",
+		"noRequireAndNotEmptyForStr": "jest tests/string/noRequireAndNotEmptyForStr.test.js",
+		"requirePhone": "jest tests/string/requirePhone.test.js",
+		"requireUrl": "jest tests/string/requireUrl.test.js",
+		"requireEmail": "jest tests/string/requireEmail.test.js",
+		"requireAndEnumForStr": "jest tests/string/requireAndEnumForStr.test.js",
+		"requireIP": "jest tests/string/requireIP.test.js",
+		"requireID": "jest tests/string/requireID.test.js",
+		"length": "jest tests/string/length.test.js",
+		"max": "jest tests/string/max.test.js",
+		"min": "jest tests/string/min.test.js",
+		"name": "jest tests/string/name.test.js",
+
+
+		"requireForNum": "jest tests/number/num/requireForNum.test.js",
+		"requireAndEnumForNum": "jest tests/number/requireAndEnumForNum.test.js",
+		"requireForInt": "jest tests/number/integer/requireForInt.test.js",
+		"requireAndPrecision": "jest tests/number/requireAndPrecision.test.js",
+
+
+		"requireForRangeNum-loro": "jest tests/number/num/requireForRangeNum-loro.test.js",
+		"requireForRangeNum-lcro": "jest tests/number/num/requireForRangeNum-lcro.test.js",
+		"requireForRangeNum-lorc": "jest tests/number/num/requireForRangeNum-lorc.test.js",
+		"requireForRangeNum-lcrc": "jest tests/number/num/requireForRangeNum-lcrc.test.js",
+
+		"requireForRangeNum-gt": "jest tests/number/num/requireForRangeNum-gt.test.js",
+		"requireForRangeNum-gte": "jest tests/number/num/requireForRangeNum-gte.test.js",
+		"requireForRangeNum-lt": "jest tests/number/num/requireForRangeNum-lt.test.js",
+		"requireForRangeNum-lte": "jest tests/number/num/requireForRangeNum-lte.test.js",
+
+		"requireForRangeInt-loro": "jest tests/number/integer/requireForRangeInt-loro.test.js",
+		"requireForRangeInt-lcro": "jest tests/number/integer/requireForRangeInt-lcro.test.js",
+		"requireForRangeInt-lorc": "jest tests/number/integer/requireForRangeInt-lorc.test.js",
+		"requireForRangeInt-lcrc": "jest tests/number/integer/requireForRangeInt-lcrc.test.js",
+
+
+		"requireForRangeInt-gt": "jest tests/number/integer/requireForRangeInt-gt.test.js",
+		"requireForRangeInt-gte": "jest tests/number/integer/requireForRangeInt-gte.test.js",
+		"requireForRangeInt-lt": "jest tests/number/integer/requireForRangeInt-lt.test.js",
+		"requireForRangeInt-lte": "jest tests/number/integer/requireForRangeInt-lte.test.js",
+
+		"requireForBool": "jest tests/bool/requireForBool.test.js",
+		"requireAndNotEmptyForArr": "jest tests/array/requireAndNotEmptyForArr.test.js",
+		"requireAndIsEmptyForArr": "jest tests/array/requireAndIsEmptyForArr.test.js",
+
+		"requireAndNotEmptyForObj": "jest tests/object/requireAndNotEmptyForObj.test.js",
+		"requireAndIsEmptyForObj": "jest tests/object/requireAndIsEmptyForObj.test.js",
+
+
+		"coverage": "jest --coverage",
+		"verbose": "npx jest --verbose",
+		"jesthelp": "jest -h"
+	},
+	"author": "zurmokeeper",
+	"license": "MIT"
+}
