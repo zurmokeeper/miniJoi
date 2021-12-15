@@ -1,4 +1,20 @@
+![](https://img.shields.io/badge/node.js-%3E%3D10-brightgreen) ![](https://img.shields.io/badge/coverage-100%25-brightgreen) ![](https://img.shields.io/badge/Lincense-MIT-blue) [![](https://img.shields.io/badge/npmjs-minijoi-red)](https://www.npmjs.com/package/minijoi) ![](https://img.shields.io/badge/dependencies-up%20to%20date-green)
+
+**初衷：**
+
+由于在使用 `Joi` 的时候，校验时每次都要写模式规则 `string.trim().required()` 等等。由于参数校验是频繁且必须的，写的越来越多，代码既不好看，也不好维护，模式规则也不好记忆，并且 `joi throw` 的错误还需要单独去处理。所以对日常最常用的校验，封装了`joi的API`，并且可以在调用的时候同时传入`自定义的Error`，使用 `joi` 友好的报错`堆栈提示信息` 同时 `throw` 我们自定义的`Error`， 无须再单独处理 `joi 的 Error`。所以就有了 `miniJoi` ，就是`简单版的joi`。
+
+欢迎提 Issue 和 PR , 代码的测试用例在`tests`目录下，写好测试用例，执行命令为： 
+```
+pnpm run coverage(推荐)
+npm run coverage
+yarn run coverage
+```
+
+控制台会输出用例情况和代码覆盖率。开发者也可以对 `miniJoi` 进行二次开发，打造更符合自己应用模块。
+
 # miniJoi
+
 
 ```
 const miniJoi = require('minijoi');
