@@ -1,6 +1,6 @@
 {
 	"name": "minijoi",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Node.js parameter verification module, more simple to use, JS parameter verification module, Joi module simple encapsulation library",
 	"keywords": [
 		"Joi",
